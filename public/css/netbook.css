@@ -1,0 +1,124 @@
+body {
+    background-image: url('../backs/background.gif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frame {
+    border: 2px solid #ffffff; /* Border color */
+    background-color: #0000ff; /* Background color */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.media-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.media-container img,
+.media-container video {
+    width: 45%; /* Adjust width as needed */
+    height: auto;
+}
+.blink {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+table {
+    background-color: #000000;
+    margin-top: 20px; /* Added margin-top */
+    color: #ffffff; /* Table text color */
+}
+th, td {
+    padding: 10px; /* Table cell padding */
+    border: 1px solid #ffffff; /* Table cell border */
+}
+.construction {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.construction img {
+    width: 250px;
+}
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6699CC; /* Gradient background */
+    font-family: 'Arial', sans-serif; /* Common 90's font */
+    color: #000000; /* Text color */
+    line-height: 1.6; /* Improved readability */
+}
+
+.frame {
+    border: 2px groove #FFD700; /* Decorative border */
+    background-color: #00FF00; /* Bright green background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px; /* Larger font size for headings */
+    color: #FF1493; /* Pink color */
+    text-align: center; /* Centered text */
+    text-transform: uppercase; /* Uppercase headings */
+    margin-bottom: 20px; /* Added bottom margin */
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+p {
+    font-size: 18px; /* Larger font size for paragraphs */
+    margin-bottom: 20px; /* Added bottom margin */
+}
+
+table {
+    background-color: #FFD700; /* Yellow background color for tables */
+    margin-top: 20px; /* Added top margin */
+    color: #000000; /* Text color */
+    border: 2px groove #FF1493; /* Pink decorative border */
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapsed borders */
+}
+
+th, td {
+    padding: 10px; /* Increased cell padding */
+    border: 1px solid #FF1493; /* Pink border */
+}
+
+.construction {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.construction img {
+    width: 250px; /* Adjusted width */
+}
+
+
+
+/* Add more styles as needed for other elements */
