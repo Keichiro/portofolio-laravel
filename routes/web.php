@@ -23,43 +23,6 @@ route::get('/argh', function () {
 
 // routes/web.php
 
-
-Route::get('/adam', function () {
-    return view('adam');
-});
-
-Route::get('/netbook/HPMini210', function () {
-    return view('HPMini210');
-});
-
-Route::get('/news/AMD64bit', function () {
-    return view('AMDX86-64');
-});
-
-Route::get('/news/IntelNetburst', function () {
-    return view('IntelNetburst');
-});
-
-Route::get('/registerproj', function () {
-    return view('registerproj');
-});
-
-Route::get('/YG', function () {
-    return view('YahooGames');
-});
-
-Route::get('/ebay', function () {
-    return view('eBay');
-});
-
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/loginproj', function () {
-    return view('loginproj');
-});
-
-Route::get('/moneyproj', function () {
-    return view('moneyproj');
+Route::get('/portofolio', function () {
+    return view('portofolio');
 });
